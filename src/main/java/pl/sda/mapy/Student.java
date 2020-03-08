@@ -5,7 +5,8 @@ public class Student {
     private String lastName;
 
     public Student(String name, String lastName) {
-
+        this.name = name;
+        this.lastName = lastName;
     }
 
     public String getName() {
@@ -22,6 +23,9 @@ public class Student {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+    public Student() {
+
     }
 
 }
